@@ -122,7 +122,7 @@ export default function LocationMap() {
             <div style={{ borderRadius: '16px', overflow: 'hidden', boxShadow: '0 8px 40px rgba(0,0,0,0.12)', height: 'clamp(320px, 45vw, 500px)' }}>
               <iframe
                 title="Buck Bauunternehmen Standort"
-                src="https://maps.google.com/maps?q=Gewerbestraße+21,+88400+Biberach+an+der+Riß,+Deutschland&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                src="https://maps.google.com/maps?q=48.0691,9.7825&t=&z=17&ie=UTF8&iwloc=B&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0, display: 'block' }}
