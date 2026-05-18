@@ -82,7 +82,7 @@ export default function SanierungPage() {
                 Was wir für Sie tun können
               </h2>
             </div>
-            <AccordionWithImages items={items} />
+            <Accordion items={items} />
           </RevealOnScroll>
         </div>
       </section>
@@ -90,8 +90,4 @@ export default function SanierungPage() {
       <CtaBanner />
     </>
   );
-}
-
-function AccordionWithImages({ items }: { items: typeof items }) {
-  return <Accordion items={items} />;
 }
